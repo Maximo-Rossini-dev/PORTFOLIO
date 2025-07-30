@@ -52,7 +52,10 @@ header_hmb_container:before {
   align-items: center;
   gap: 20px;
 }
-
+.low_res_menu > a {
+  text-decoration: none;
+  color: #fafafa;
+}
 .high_res_menu {
   display: none;
 }

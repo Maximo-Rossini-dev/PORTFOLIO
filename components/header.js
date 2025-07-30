@@ -3,7 +3,7 @@ function headerComp(parentEl) {
   divEl.innerHTML = `
          <header class="header">
              <div class="header_img__container">
-              <img src="../icons/maxiCV_icon.png" alt="" class="header_img" />
+              <img src="icons/maxiCV_icon.png" alt="" class="header_img" />
              </div>
              <div class="header_hmb_container">
                <div class=" hmb_slice"></div>
