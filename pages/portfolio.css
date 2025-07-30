@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.portfolio_upper_content {
+  background-color: rgba(19, 23, 28, 1);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+@media (min-width: 960px) {
+  .portfolio_upper_content {
+    flex-direction: row;
+    gap: 200px;
+  }
+}
+@media (min-width: 960px) {
+  .portfolio_upper_content > div > h2 {
+    text-align: left;
+  }
+}
+.upper_content_title {
+  width: 250px;
+}
+.upper_content_title > h2 {
+  color: #fafafa;
+  font-size: 60px;
+  margin: 0;
+  text-align: center;
+}
+.upper_content_title > h2 > span {
+  color: rgba(0, 173, 181, 1);
+  font-size: 60px;
+}
+.proyects_cards_container {
+  background: black url("../bg.png");
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+@media (min-width: 960px) {
+  .proyects_cards_container {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+.proyects_cards_container > div {
+  cursor: pointer;
+}
