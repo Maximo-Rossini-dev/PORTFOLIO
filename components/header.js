@@ -11,16 +11,16 @@ function headerComp(parentEl) {
                <div class="hmb_slice"></div>
              </div>
              <div class="high_res_menu">
-              <a href="../services.html">Servicios</a>
-              <a href="../portfolio.html">Portfolio</a>
-              <a href="../contact.html">Contacto</a>
+              <a href="services.html">Servicios</a>
+              <a href="portfolio.html">Portfolio</a>
+              <a href="contact.html">Contacto</a>
              </div>
              </header>
              <div class="low_res_menu">
-                 <p>Servicios</p>
-                 <p>Portfolio</p>
-                 <p>Contacto</p>
-                 <p class="close">Volver</p>
+                 <a  href="services.html">Servicios</a>
+                 <a href="portfolio.html">Portfolio</a>
+                 <a href="contact.html">Contacto</a>
+                 <a class="close">Volver</a>
              </div>
     `;
   const hmbEl = divEl.querySelector(".header_hmb_container");
